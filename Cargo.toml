@@ -1,0 +1,25 @@
+[package]
+name = "mdzen"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A minimalist, zen-like markdown reader with syntax highlighting built with egui"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/mdzen"
+homepage = "https://github.com/yourusername/mdzen"
+documentation = "https://docs.rs/mdzen"
+keywords = ["markdown", "reader", "gui", "egui", "zen", "minimalist"]
+categories = ["command-line-utilities", "text-processing", "gui"]
+readme = "README.md"
+
+[dependencies]
+egui = "0.28"
+eframe = "0.28"
+pulldown-cmark = "0.13"
+syntect = "5.2"
+rfd = "0.14"
+anyhow = "1.0"
+webbrowser = "0.8"
+image = "0.24"
+reqwest = { version = "0.11", features = ["blocking"] }
+egui_extras = { version = "0.28", features = ["image"] }

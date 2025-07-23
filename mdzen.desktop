@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=mdzen
+Comment=A minimalist, zen-like markdown reader
+Exec=mdzen %f
+Icon=text-markdown
+Terminal=false
+Categories=Office;Viewer;
+MimeType=text/markdown;text/x-markdown;
+StartupNotify=true
