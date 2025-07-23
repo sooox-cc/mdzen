@@ -1,10 +1,12 @@
-# mdzen
+z# mdzen
 
 > *A minimalist, zen-like markdown reader built with Rust and egui*
 
 [![Built with Rust](https://img.shields.io/badge/built%20with-Rust-dea584.svg?logo=rust)](https://www.rust-lang.org/)
 
 mdzen provides a clean, distraction-free environment for reading markdown files. Inspired by zen philosophy, it focuses on simplicity, elegance, and the pure joy of reading.
+
+[![Preview](assets/preview.png)]
 
 ## ✨ Features
 
